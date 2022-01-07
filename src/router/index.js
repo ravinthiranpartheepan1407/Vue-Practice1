@@ -30,6 +30,11 @@ const routes = [
       name: 'ProductItem',
       component: ()=> import('../views/ProductItem.vue')
     },
+    {
+      path: '/resume',
+      name: '/ResumeCv',
+      component: ()=>import('../views/ResumeCv.vue')
+    }
 ];
 
 const router = new VueRouter({

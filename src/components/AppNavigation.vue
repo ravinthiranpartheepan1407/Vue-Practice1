@@ -19,6 +19,9 @@
     <v-spacer></v-spacer>
     <v-btn to="/product"> Login </v-btn>
     <v-btn to="/content"> Content </v-btn>
+    &nbsp;
+    <v-spacer></v-spacer>
+    <v-btn to="/resume">Resume</v-btn>
   </v-toolbar>
   </span>
 </template>
