@@ -15,13 +15,15 @@
   <v-toolbar app color="purple dark-4" dark>
     <v-toolbar-side-icon @click="drawer = !draw"></v-toolbar-side-icon>
     <v-toolbar-title>{{appTitle}}</v-toolbar-title>
-    <v-btn to="/"> Menu </v-btn>
     <v-spacer></v-spacer>
-    <v-btn to="/product"> Login </v-btn>
-    <v-btn to="/content"> Content </v-btn>
+    <v-btn color="primary lighten-1" to="/"> Menu </v-btn>
+    <v-spacer></v-spacer>
+    <v-btn color="primary lighten-1" to="/product"> Login </v-btn>
+    <v-spacer></v-spacer>
+    <v-btn color="primary lighten-1" to="/content"> Content </v-btn>
     &nbsp;
     <v-spacer></v-spacer>
-    <v-btn to="/resume">Resume</v-btn>
+    <v-btn color="primary lighten-1" to="/resume">Resume</v-btn>
   </v-toolbar>
   </span>
 </template>

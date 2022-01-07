@@ -1,18 +1,18 @@
 <template>
   <v-container>
-    <v-layout>
+
       <template v-for="(data, next) in datas">
         <v-card :key="next">
-          <p>{{data.firstname}}</p>
-          <p>{{data.lastname}}</p>
+        <p style="text-align: center">{{data.firstname}}</p>
+          <p style="text-align: center">{{data.lastname}}</p>
         </v-card>
-        
+
         <v-card :key="next">
-          <p>{{data.course}}</p>
-          <p>{{data.Year}}</p>
+          <p style="text-align: center">{{data.course}}</p>
+          <p style="text-align: center">{{data.Year}}</p>
         </v-card>
       </template>
-    </v-layout>
+
   </v-container>
 </template>
 

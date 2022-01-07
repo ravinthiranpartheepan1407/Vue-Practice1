@@ -2,8 +2,8 @@
   <v-container fluid>
     <v-layout>
       <v-flex>
-        <p>Hello, Suren</p>
-        <p> Welcome </p>
+        <h1 style="text-align: center">Hello, Suren</h1>
+        <h1 style="text-align: center"> Welcome </h1>
       </v-flex>
     </v-layout>
   </v-container>
